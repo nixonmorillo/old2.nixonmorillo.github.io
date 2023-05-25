@@ -1,50 +1,387 @@
-<!DOCTYPE HTML>
-<!--
-	Aerial by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Encom Internacional</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
-		<div id="wrapper">
-			<div id="bg"></div>
-			<div id="overlay"></div>
-			<div id="main">
+<head>
+	<title>DevOps-Nixon-Morillo-Eng</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Generator" content="CV Maker - https://cvmkr.com/" />
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css" />
+	<style type="text/css">
+		body {
+			background: #f0f0f0;
+			margin: 0;
+			padding: 0;
+			
+			font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+			line-height: 20px;
+			font-size: 13px;
 
-				<!-- Header -->
-					<header id="header">
-						<h1>Encom Internacional</h1>
-						<h2>Sitio en Construcción</h2>
-						<p>Ingenieria &nbsp;&bull;&nbsp; Electronica &nbsp;&bull;&nbsp; Sistemas</p>
-						<nav>
-							<ul>
-								<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-								<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-								<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-							</ul>
-						</nav>
-					</header>
+			color: #222;
+		}
 
-				<!-- Footer -->
-					<footer id="footer">
-						<span class="copyright">&copy; Desarrollado: <a href="#">Nixon Morillo</a>.</span>
-					</footer>
+		h1, h2, h3, h4 {
+			font-family: 'Oswald', Impact, Helvetica, Arial, sans-serif;
+			font-weight: normal;
+			margin: 0 0 15px 0;
+			padding: 0;
+		}
+		h1 {
+			font-size: 300%;
+		}
+		h2 {
+			font-size: 210%;
+		}
+		h3 {
+			font-size: 130%;
+		}
+		
+		p {
+			margin: 0 0 10px 0;
+		}
+		
+		ul {
+			margin: 0;
+			list-style-type: square;
+		}
+		a {
+			color: #222;
+		}
+		/* ________________________________________________________ */
+		.rtl {
+			direction: rtl;
+		}
+		.clear {
+			clear: both;
+		}
 
-			</div>
+		#main {
+			background: #fff;
+			width: 900px;
+			padding: 35px;
+			margin: 0 auto 15px auto;
+			overflow: hidden;
+			
+			box-shadow: 0 0 6px #ccc;
+		}
+
+		#title {
+			line-height: 42px;
+			border-bottom: 3px solid #000;
+			padding-bottom: 30px;
+			margin: 0px 0 30px 0;
+		}
+		
+		#credit {
+			margin-bottom: 20px;
+			font-size: 11px;
+			color: #999;
+			text-align: center;
+		}
+			#credit a {
+				color: #999;
+			}
+		
+		p label {
+			font-family: 'Oswald', Helvetica, Arial, serif;
+			
+			font-size: 110%;
+			margin-right: 10px;
+		}
+			p label span.colon {
+				display: inline;
+			}
+
+		
+		.section {
+			margin-bottom: 40px;
+		}
+		.section .set {
+		}
+		.item {
+			margin: 0 0 20px 0;
+		}
+
+		/*  _____________________________ */
+		.section .title {
+			text-transform: uppercase;
+			font-size: 170%;
+
+			padding: 10px 10px;
+			margin: 0 auto 15px auto;
+
+			display: inline-block;
+			background: #000;
+			color: #fff;
+		}
+			.section .set h3 {
+				margin: 0;
+			}
+
+
+
+		.basic-info {
+			border-top: 0;
+		}
+		.section.basic-info .title {
+			float: left;
+			border: 0;
+		}
+		.basic-info .set {
+			float: right;
+			width: 70%;
+		}
+		.basic-info .address {
+			width: 40%;
+			float: left;
+		}
+		.basic-info .r {
+			float: right;
+			width: 60%;
+			text-align: right;
+		}
+			.basic-info label {
+				font-family: 'Oswald', Helvetica, Arial, serif;
+			}
+			.basic-info label, .basic-info span  {
+				display: inline !important;
+			}
+		.basic-info p {
+			margin: 0;
+		}
+		
+		.section span.value {
+			display: block;
+		}
+		.section h3 span.l, .section span.r {
+			width: 49%;
+			float: left;
+		}
+			.section span.r {
+				float: right;
+				text-align: right;
+			}
+			.section-education .school,
+			.section-work .job_title {
+				font-size: 100%;
+				display: block;
+				margin: 5px 0 5px 0;
+			}
+
+
+		#photo {
+			width: 160px;
+			height: 200px;
+			overflow: hidden;
+			float: left;
+			margin-top: 4px;
+			border-radius: 4px;
+		}
+		#photo img {
+			width: 100%;
+			height: auto;
+		}
+		.header.photo {
+			margin-left: 190px;
+		}
+		.header.photo #title {
+			text-align: left;
+		}
+		.header.photo .basic-info {
+			float: none;
+			padding: 0;
+		}
+
+
+		@media screen and (max-width: 950px) {
+			body {
+				background: #fff;
+			}
+			#main {
+				box-shadow: none;
+				padding: 0;
+				padding: 5px;
+			}
+		}
+	</style>
+</head>
+<body class="lang-en ">
+
+<div id="main">
+			<div id="photo">
+			<img src="https://s3-eu-west-1.amazonaws.com/files1.cvmkr.com/46082b_971271_2260557.jpg" alt="" />
 		</div>
-		<script>
-			window.onload = function() { document.body.classList.remove('is-preload'); }
-			window.ontouchmove = function() { return false; }
-			window.onorientationchange = function() { document.body.scrollTop = 0; }
-		</script>
-	</body>
+		<div class="header photo">
+	
+	<h1 id="title">Nixon Elier Morillo Rondon</h1>
+	<div class="basic-info section">
+		<h2 class="title">Contact</h2>
+		<div class="set">
+		
+							<p class="address">
+					<span class="value">
+						<label><span class="colon"></span>Address:</label> Chorrillos, Lima, Perú<br /><label><span class="colon"></span>WEB:</label> <a href="https://nixonmorillo.com" rel="nofollow">https://nixonmorillo.com</a><br /><label><span class="colon"></span>Newsletter: </label><a href="https://bit.ly/3IPEXN8" rel="nofollow">https://bit.ly/3IPEXN8</a>					</span>
+				</p>
+						<div class="r">
+									<p class="email"><label>E-mail<span class="colon">:</span></label> <span class="value"><a href="mailto: hola@nixonmorillo.com" class="__cf_email__" data-cfemail="58363120373635372a31343437183f35393134763b3735">hola@nixonmorillo.com</a></span></p>
+				
+									<p class="website"><label><span class="colon">LinkedIn: </span></label> <span class="value"><a href="https://www.linkedin.com/in/nixonmorillo" rel="nofollow">https://www.linkedin.com/in/nixonmorillo</a></span></p>
+				
+									<p class="phone"><label>Phone<span class="colon">:</span></label> <span class="value"><a href="tel:+51900634587">+51900634587</a></span></p>
+							</div>
+			<div class="clear"> </div>
+		</div><!-- set //-->
+		<div class="clear"> </div>
+	</div><!-- basic-info //-->
+
+			</div><div class="clear"> </div>
+	
+		
+			<div class="section section-1287593158087">
+			<h2 class="title">Objective</h2>
+			<div class="set">
+							<div class="item">
+								<span class="info"><div>
+                <div>Hi, I'm a DevOps Specialist witch experience 
+working as a fullstack developer, Data Analyst, and others roles with expertice in AWS, Azure, Cloudformation, Git, Angular, MySQL, PostgreSQL, Laravel, Wordpress, 
+Django, Linux, Docker, Jenkins and others.<br /><br />
+</div>            </div></span>
+							</div>
+						</div>
+			<div class="clear"> </div>
+		</div>
+			<div class="section section-education">
+			<h2 class="title">Education</h2>
+			<div class="set">
+						<div class="item">
+							<h3><span class="course l">System Engineer</span>
+						<span class="date r">September 2006 &mdash; December 2011</span>
+							</h3>
+							<div class="clear"> </div>
+							<span class="school">UNEFA</span><span class="clear"> </span>
+						</div>
+						</div>
+			<div class="clear"> </div>
+		</div>
+			<div class="section section-1469182820703">
+			<h2 class="title">Courses</h2>
+			<div class="set">
+							<div class="item">
+								<span class="info"><ul><li>DevOps Essentials, LinuxAcademy.com (https://goo.gl/hmYDpO)<br /></li><li>Jenkins and Build Automation, LinuxAcademy.com (https://goo.gl/ROIY9m)</li><li>Deploying MariaDB Or MySQL On VPC EC2 From Scratch With Replication, LinuxAcademy.com, (https://goo.gl/3LRu21)</li><li>Docker And Elastic Beanstalk, LinuxAcademy.com (https://goo.gl/nKsI93)</li><li>OpenStack Essentials, LinuxAcademy.com (https://goo.gl/OUV2BP)<br /></li><li>Introducción a CHEF, Microsoft Virtual Academy</li><li>Managing Your Systems on Microsoft Azure with CHEF, Microsoft Virtual Academy</li><li>VARIABLES Y ESTRUCTURAS DE CONTROL EN LA PROGRAMACION ORIENTADA A OBJETOS: JAVA(40 hrs)(2010)<br /></li></ul></span>
+							</div>
+						</div>
+			<div class="clear"> </div>
+		</div>
+			<div class="section section-qualifications">
+			<h2 class="title">Capabilities</h2>
+			<div class="set">
+							<div class="item">
+								<span class="info"><ul><li>
+
+English: Advanced Written</li><li>English: Oral Advanced</li><li>Programming languages PHP: Senior Seniority</li><li>Programming languages Python: Semi Senior</li><li>Programming languages JavaScript: Seniority Semi Senior</li><li>Programming languages Node.JS: Seniority Junior</li><li>Programming languages Shell Script: Seniority Junior</li><li>Programming languages SQL: Seniority Semi Senior</li><li>CMS PHP - Wordpress: Seniority Semi Senior</li><li>Framework Laravel: Seniority
+Semi Senior</li><li>Framework Django: Seniority
+Semi Senior</li><li>Framework Spring: Seniority
+Semi Senior</li><li>Framework Symfony: Seniority
+Semi Senior</li><li>Operating Systems - Linux: Semi Senior<br /></li><li>Networks, connectivity and Internet - FTP Servers: Seniority Semi
+Senior</li><li>Networks and Internet connectivity - VPN Servers: Seniority Semi
+Senior</li><li>Networks and Internet connectivity - SSH / SFTP Servers: Seniority
+Semi Senior</li><li>Networks and Internet connectivity - Admin Panel webservers
+(CPanel): Senior Seniority</li><li>Networks and Internet connectivity - Webmin Servers: Senior
+Seniority</li><li>Networks, connectivity and Internet - Web Server Apache: Senior
+Seniority</li><li>DevOps - Docker: Seniority
+Semi Senior</li><li>DevOps - Kubernetes: Seniority Semi Senior</li><li>DevOps - Jenkins: Seniority Semi Senior</li><li>DevOps - SonarQube: Seniority Semi Senior</li><li>DevOps - Kibnana: Seniority Semi Senior</li><li>DevOps - New Rellic: Seniority Semi Senior</li><li>DevOps - Gitlab &amp; Gitlab's CI: Seniority Junior</li><li>DevOps - Cloud: Seniority Semi Senior</li><li>BI Tableau: Seniority Semi Senior<br /></li><li>Power BI: Seniority Semi Senior<br /></li><li>Databases - MySQL: Senior Seniority</li><li>Databases - PostgreSQL: Seniority Junior</li><li>Industrial applications - UML: Seniority Junior</li></ul></span>
+							</div>
+						</div>
+			<div class="clear"> </div>
+		</div>
+			<div class="section section-work">
+			<h2 class="title">Work experience</h2>
+			<div class="set">
+								<div class="item">
+									<h3><span class="company l">Mayoralty San Francisco, Zulia, Venezuela</span>
+							<span class="date r">Jul 2010 &mdash; Apr 2011</span>
+								</h3>
+								<div class="clear"> </div>
+								<span class="job_title">Intern</span><div class="info">- Support hardware and software Desktop computer equipment and Laptops, Servers and Workstation 's.<br />- Structuring and Technical Support Data networks.<br />- Technical support information systems, and the realization of a in conceptual engineering for the subsequent design of a system.<br />- Analysis &amp; Design (Using tools like Visio ,Enterprice Architect, Day , PgDesigner , among others).<br />- Developement of an information system oriented management of billing processes and funeral services Gardens Cemetery Park Chinita , Under Web platform ( PHP , symfony, extjs, PostgreSql ).<br />- Implementation (installation of Web Services, Deploy, Training, etc ... ) </div><div class="clear"> </div>
+								</div>
+							
+								<div class="item">
+									<h3><span class="company l">Mayoralty San Francisco, Zulia, Venezuela</span>
+							<span class="date r">May 2011 &mdash; Jan 2013</span>
+								</h3>
+								<div class="clear"> </div>
+								<span class="job_title">Software Analyst</span><div class="info">- Software development under web environment ( php, symfony, extjs , mysql , postgres , jquery, and many CMS).<br />- Support systems , web pages 's Development , Tecnical Support ( Free Software ) .<br />- Installation of servers (DNS under linux, MAILSERVER under linux, linux's WEBSERVER, linux's IRC, among others).</div><div class="clear"> </div>
+								</div>
+							
+								<div class="item">
+									<h3><span class="company l">Mayoralty San Francisco, Zulia, Venezuela</span>
+							<span class="date r">Feb 2013 &mdash; Jul 2015</span>
+								</h3>
+								<div class="clear"> </div>
+								<span class="job_title">Coordinator of Technology</span><div class="info">- Create and maintain policies for data backup.<br />- Using software development methodologies .<br />- System requirements analysis .<br />- Web Design Systems .<br />- Web support systems .<br />- Maintenance of existing services .<br />- Hardware optimization based on computer and financial resources.<br /><div>- Installation of servers:</div><div>    *DNS under linux, MAILSERVER under linux, linux's WEBSERVER, linux's IRC, among others.</div>- 3 Persons in charge.</div><div class="clear"> </div>
+								</div>
+							
+								<div class="item">
+									<h3><span class="company l">Ideas Inversoras Internacional, C.A.</span>
+							<span class="date r">Oct 2015 &mdash; Jan 2016</span>
+								</h3>
+								<div class="clear"> </div>
+								<span class="job_title">Developer</span><div class="info">- Cross Mobile App Development(Ionic Framework) and Website Development(Wordpress CMS).<br />- Maintenance of web applications(Wordpress CMS, Django Framework, Slim Framework) and the existing linux services.<br />- DevOps Tasks using tools like Docker, Gitlab &amp; Gitlab's CI.<br />- Hardware optimization based on computer and financial resources.</div><div class="clear"> </div>
+								</div>
+							
+								<div class="item">
+									<h3><span class="company l">FriendlyBit</span>
+							<span class="date r">May 2018 &mdash; Oct 2018</span>
+								</h3>
+								<div class="clear"> </div>
+								<span class="job_title">Desarrollador Web</span><div class="info">-Website Development<br />-Laravel 5.6<br />-Vue.Js 2<br />-Mysql<br />-Yarn</div><div class="clear"> </div>
+								</div>
+							
+								<div class="item">
+									<h3><span class="company l">Altimea</span>
+							<span class="date r">Nov 2018 &mdash; May 2019</span>
+								</h3>
+								<div class="clear"> </div>
+								<span class="job_title">Backend Developer</span><div class="info">- Api-Platform<br />- PostgreSQL<br />- Symfony Flex<br />- Symfony 4 Packages<br />- Docker<br />- Behat<br />- PhpUnit<br />- GitFlow<br />- DevOps Tasks using tools like Docker, Gitlab &amp; Gitlab's CI.</div><div class="clear"> </div>
+								</div>
+							
+								<div class="item">
+									<h3><span class="company l">Everis EPR</span>
+							<span class="date r">Jun 2019 &mdash; Sep 2021</span>
+								</h3>
+								<div class="clear"> </div>
+								<span class="job_title">Solutions Asistant</span><div class="info">- Solutions Assistant in  IBM ICM Comisiones Mapfre España<br />- Script Developmet in Python Telefonica Perú.<br />- BPM implantation consultancy.<br />- PowerBI Solution KPI Visualization Data<br />- Tableau Solution KPI Visualization Data<br />- Data Architect consultancy.<br />- Software &amp; Solution Architect consultancy<br />- Product Backlog refinament.</div><div class="clear"> </div>
+								</div>
+							
+								<div class="item">
+									<h3><span class="company l">Globant</span>
+							<span class="date r">Sep 2021 &mdash; Present</span>
+								</h3>
+								<div class="clear"> </div>
+								<span class="job_title">DevOps Engineer</span><div class="info"><div>- Azure DevOps</div><div>- Azure ARM</div><div>- Ansible</div><div>- Jenkins</div><div>- Sonarcube</div><div>- AWS Cloudformation</div><div>- AWS CloudWatch</div><div>- AWS Lambda</div><div>- Among Others<br /></div></div><div class="clear"> </div>
+								</div>
+							</div>
+			<div class="clear"> </div>
+		</div>
+			<div class="section section-interests">
+			<h2 class="title">Interests</h2>
+			<div class="set">
+							<div class="item">
+								<span class="info"><ul><li>Music</li><li>Internationals</li><li>Movies</li></ul></span>
+							</div>
+						</div>
+			<div class="clear"> </div>
+		</div>
+			<div class="section section-1460658466359">
+			<h2 class="title">Publications</h2>
+			<div class="set">
+							<div class="item">
+								<span class="info">Name: <span style="font-weight:bold;">Manejadores de Bases de Datos: PostgreSQL</span><br />Magazine: <span style="font-weight:bold;">DTyOC</span><br />Url: https://dtyoc.com/2013/11/08/postgresql/<br />Date: November 1, 2013<br />Description: Publication about PostgreSql.<br /><br />Name: <span style="font-weight:bold;">Lenguajes de Programacion: PHP</span><br />Magazine: <span style="font-weight:bold;">DTyOC</span><br />Url: https://dtyoc.com/2013/12/08/php/<br />Date: December 1, 2013<br />Description: Publication about PHP.</span>
+							</div>
+						</div>
+			<div class="clear"> </div>
+		</div>
+		
+</div>
+	<div id="credit"><a href="https://drive.google.com/file/d/1NHGSIF-udYnQ8DhEiSAJ43r9twdnOP2w/view?usp=sharing"><h2 class="title">PDF VERSION</h2></a></div>
+	
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
 </html>
